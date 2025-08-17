@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Python Programming Fundamentals",
+    "content": "\n            Python เป็นภาษาโปรแกรมมิ่งระดับสูงที่ถูกพัฒนาโดย Guido van Rossum ในปี 1991. \n            มันเป็นภาษาที่อ่านง่ายและเขียนง่าย เหมาะสำหรับผู้เริ่มต้นและผู้เชี่ยวชาญ.\n            Python รองรับการเขียนโปรแกรมแบบ object-oriented, procedural, และ functional.\n            มี library มากมายที่ช่วยในการพัฒนาแอปพลิเคชันต่างๆ เช่น Django สำหรับ web development,\n            NumPy และ Pandas สำหรับ data science, TensorFlow และ PyTorch สำหรับ machine learning.\n            ",
+    "source_url": "https://docs.python.org/",
+    "type": "documentation"
+  },
+  {
+    "title": "Machine Learning with Python",
+    "content": "\n            Machine Learning เป็นสาขาหนึ่งของ Artificial Intelligence ที่เน้นการสร้างอัลกอริทึม\n            ที่สามารถเรียนรู้จากข้อมูลโดยไม่ต้องเขียนโปรแกรมแบบ explicit.\n            ใน Python มี libraries สำคัญสำหรับ ML เช่น scikit-learn สำหรับ classical ML,\n            TensorFlow และ Keras สำหรับ deep learning, และ Pandas สำหรับ data manipulation.\n            ประเภทของ ML ได้แก่ Supervised Learning (มีข้อมูล label), Unsupervised Learning (ไม่มี label),\n            และ Reinforcement Learning (เรียนรู้จาก reward/punishment).\n            ",
+    "source_url": "https://scikit-learn.org/",
+    "type": "tutorial"
+  },
+  {
+    "title": "Pinecone Vector Database และ RAG Architecture",
+    "content": "\n            Pinecone เป็น managed vector database ที่เหมาะสำหรับการสร้าง RAG systems.\n            มันช่วยให้เราสามารถทำ semantic search ได้ โดยใช้ similarity measures เช่น cosine similarity.\n            Pinecone v7.x รองรับ Serverless architecture ที่จ่ายตามการใช้งานจริง.\n            RAG (Retrieval-Augmented Generation) เป็น architecture ที่รวม information retrieval\n            กับ text generation เพื่อให้ AI สามารถตอบคำถามด้วยข้อมูลที่ accurate และ up-to-date.\n            ขั้นตอนของ RAG ประกอบด้วย: 1) Indexing (แปลงเอกสารเป็น embeddings), \n            2) Retrieval (ค้นหาข้อมูลที่เกี่ยวข้อง), 3) Generation (สร้างคำตอบจาก LLM).\n            ",
+    "source_url": "https://pinecone.io/learn/rag/",
+    "type": "documentation"
+  }
+]
